@@ -9,9 +9,10 @@ scoreboard objectives add Vida health
 scoreboard objectives setdisplay list Vida
 
 worldborder center 0.0 0.0
-worldborder set 4000
+worldborder set 5000
 
 scoreboard objectives add puntos_items dummy "Puntos Totales"
 scoreboard objectives add muertes deathCount
 scoreboard objectives setdisplay sidebar puntos_items
 scoreboard objectives modify puntos_items displayname {"text":"Puntos Totales","color":"gold"}
+
