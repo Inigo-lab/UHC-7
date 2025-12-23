@@ -17,7 +17,8 @@ execute if score #global cuenta_atras matches 20 run title @a title {"text":"1",
 
 # Al llegar a cero: Título, Teletransporte y Sonido Épico
 execute if score #global cuenta_atras matches 0 run title @a title {"text":"¡EMPIEZA UHC 7!", "color":"green"}
-execute if score #global cuenta_atras matches 0 run spreadplayers 0 0 1000 2000 false @a
+execute if score #global cuenta_atras matches 0 run spreadplayers 0 0 1000 2500 false @a
 
 # RECURSIÓN (Línea corregida anteriormente)
+
 execute if score #global cuenta_atras matches 1.. run schedule function uhc:countdown 1t
