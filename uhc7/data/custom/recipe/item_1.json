@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:blaze_powder",
+    "/": "minecraft:soul_sand",
+    "o": "minecraft:bone_block"
+  },
+  "pattern": [
+    " # ",
+    "o/o",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:paper",
+    "components": {
+        "minecraft:custom_data": "{punto_item:1, id_item:1}",
+        "minecraft:item_name": "Vale de Punto",
+        "minecraft:enchantment_glint_override": true
+    }
+  },
+  "show_notification": true
+}
