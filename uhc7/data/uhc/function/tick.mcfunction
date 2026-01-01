@@ -63,6 +63,3 @@ execute as @a[scores={muertes=1..}] run scoreboard players set @s muertes 0
 
 # 1. Si no tiene la cabeza puesta, se la pone
 execute as @a[team=Zombie] unless items entity @s armor.head minecraft:zombie_head run item replace entity @s armor.head with minecraft:zombie_head
-
-
-

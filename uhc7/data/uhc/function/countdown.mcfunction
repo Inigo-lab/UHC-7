@@ -14,6 +14,7 @@ execute if score #global cuenta_atras matches 80 run title @a title {"text":"4",
 execute if score #global cuenta_atras matches 60 run title @a title {"text":"3", "color":"gold"}
 execute if score #global cuenta_atras matches 40 run title @a title {"text":"2", "color":"gold"}
 execute if score #global cuenta_atras matches 20 run title @a title {"text":"1", "color":"dark_red"}
+playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 1
 
 # Al llegar a cero: Título, Teletransporte y Sonido Épico
 execute if score #global cuenta_atras matches 0 run title @a title {"text":"¡EMPIEZA UHC 7!", "color":"green"}

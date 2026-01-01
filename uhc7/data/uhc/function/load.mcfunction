@@ -4,6 +4,10 @@ scoreboard objectives add Muertes deathCount
 team add Zombie
 team modify Zombie color dark_green
 
+team add Player
+team join Player @a
+team modify Player color red
+
 
 scoreboard objectives add Vida health
 scoreboard objectives setdisplay list Vida
